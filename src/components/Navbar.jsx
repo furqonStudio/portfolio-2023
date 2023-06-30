@@ -16,7 +16,7 @@ export default function Navbar() {
             Furqon.std
           </Link>
         </div>
-        <div className="sm:flex flex-none hidden">
+        <div className="sm:flex flex-none hidden text-white">
           <ul className="menu menu-horizontal px-1">
             <li>
               <Link
@@ -65,8 +65,8 @@ export default function Navbar() {
           </ul>
         </div>
 
-        <div className="dropdown dropdown-end sm:hidden">
-          <label tabIndex={0} className="btn btn-ghost btn-circle text-white">
+        <div className="dropdown dropdown-end sm:hidden text-white">
+          <label tabIndex={0} className="btn btn-ghost btn-circle ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"

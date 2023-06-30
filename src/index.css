@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chip-react {
+  @apply text-xs py-1 px-2  bg-blue-500 text-white rounded-full;
+}
+
+.chip-daisyui {
+  @apply text-xs py-1 px-2  bg-purple-500 text-white rounded-full;
+}
+
+.chip-tailwind {
+  @apply text-xs py-1 px-2  bg-[#08b4d4] text-white rounded-full;
+}
+
+.chip-figma {
+  @apply text-xs py-1 px-2  bg-red-500 text-white rounded-full;
+}
+
+.chip-mobile {
+  @apply text-xs py-1 px-2  bg-green-500 text-white rounded-full;
+}
+
+.chip-unity {
+  @apply text-xs py-1 px-2  bg-zinc-700 text-white rounded-full;
+}

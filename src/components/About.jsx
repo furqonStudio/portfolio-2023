@@ -14,7 +14,7 @@ export default function About() {
         </p>
 
         <div className="flex mt-12 flex-col gap-8 lg:flex-row items-center justify-center">
-          <div className="card w-96 bg-base-100">
+          <div className="card sm:w-96 bg-base-100">
             <figure className="px-10 pt-10">
               <img src="assets/about/design.png" alt="Shoes" className="w-12" />
             </figure>
@@ -26,7 +26,7 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="card w-96 bg-base-100">
+          <div className="card sm:w-96 bg-base-100">
             <figure className="px-10 pt-10">
               <img src="assets/about/ui.png" alt="Shoes" className="w-12" />
             </figure>
@@ -38,7 +38,7 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="card w-96 bg-base-100">
+          <div className="card sm:w-96 bg-base-100">
             <figure className="px-10 pt-10">
               <img
                 src="assets/about/frontend.png"

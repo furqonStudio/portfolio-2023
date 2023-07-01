@@ -12,7 +12,7 @@ export default function Contact() {
               alt=""
             />
           </div>
-          <div className="w-96 lg:w-auto">
+          <div className="sm:w-96 lg:w-auto">
             <form action="mailto:furqonstudio@gmail.com" method="GET">
               <div className="flex flex-col gap-4">
                 <input
